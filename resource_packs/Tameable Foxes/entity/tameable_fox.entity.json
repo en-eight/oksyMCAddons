@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "oksy:tameable_fox",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"red": "textures/entity/tameable_fox/red",
+				"arctic": "textures/entity/tameable_fox/arctic"
+			},
+			"geometry": {
+				"default": "geometry.tameable_fox"
+			},
+			"animations": {
+				"walk": "animation.tameable_fox.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.tameable_fox.baby_transform",
+				"crouch": "animation.tameable_fox.crouch",
+				"sleep": "animation.tameable_fox.sleep",
+				"setup": "animation.tameable_fox.setup",
+				"sit": "animation.tameable_fox.sit",
+				"wiggle": "animation.tameable_fox.wiggle",
+				"stuck": "animation.tameable_fox.stuck",
+				"pounce": "animation.tameable_fox.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": ["controller.render.fox"],
+			"spawn_egg": {
+				"base_color": "#ff6700",
+				"overlay_color": "#ffffff"
+			}
+		}
+	}
+}

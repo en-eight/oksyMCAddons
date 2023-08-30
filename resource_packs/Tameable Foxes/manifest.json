@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tameable Foxes",
+		"description": "Tameable Foxes Resource Pack",
+		"uuid": "58f3e94e-900e-61a0-8ecc-04f27268529b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["oksy"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.2.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Tameable Foxes",
+			"type": "resources",
+			"uuid": "b625629f-99bf-aabd-6255-d15459b4642d",
+			"version": [1, 0, 0]
+		}
+	]
+}

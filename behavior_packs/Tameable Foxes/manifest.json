@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tameable Foxes",
+		"description": "Tameable Foxes Behavior Pack",
+		"uuid": "c423d261-33cc-8dcd-45de-5af4172918e9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["oksy"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.2.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "b682a373-55fa-23a8-358d-7773ff0daa4b",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "58f3e94e-900e-61a0-8ecc-04f27268529b",
+			"version": [1, 0, 0]
+		}
+	]
+}

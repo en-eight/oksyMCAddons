@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Herobrine Version 1",
+		"description": "Herobrine comes to Minecraft...",
+		"uuid": "b85e864b-176c-017c-c193-6cb539808133",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["oksy"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.2.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Herobrine Behavior Pack",
+			"version": [1, 0, 0],
+			"uuid": "0a264d5f-2126-a342-fa74-a2967185b9dd",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a79f3dd3-754e-0280-1a2c-1dc91dfa1e3b",
+			"version": [1, 0, 0]
+		}
+	]
+}

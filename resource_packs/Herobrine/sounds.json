@@ -1,0 +1,35 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "oksy:herobrine": {
+                "volume": 1,
+                "pitch": [0.8, 1.0],
+                "events": {
+                    "ambient":{
+                        "sound": "mob.herobrine.idle",
+						"pitch": [0.8, 1.2],
+						"volume": 0.25
+
+                    },
+                    "step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 1.0
+					},
+                    "hurt":{
+                        "sound": "mob.herobrine.hurt",
+						"pitch": [0.8, 1.2],
+						"volume": 0.25
+
+                    },
+                    "death":{
+                        "sound": "mob.herobrine.death",
+						"pitch": [0.8, 1.2],
+						"volume": 0.33
+                    }
+                    
+                }
+            }   
+        }
+    }
+}
